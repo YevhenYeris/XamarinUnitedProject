@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@id/backHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Назад"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="0.7"
+                android:text="Головна сторінка містить кнопки для навігації, зчитування з файлу та збереження у файл формули, а також текстове поле для введення формули з клавіатури"/>
+
+            <ImageView
+                android:layout_width="314.0dp"
+                android:layout_height="345.5dp"
+                android:src="@drawable/truth_main_1"
+                android:contentDescription="@string/truth_main"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="0.7"
+                android:text="Для того, щоб обчислити результат, введіть формулу в текстове поле. На сторінці динамічно оновиться результат"/>
+
+            <ImageView
+                android:layout_width="330.0dp"
+                android:layout_height="312.0dp"
+                android:src="@drawable/truth_main_2"
+                android:contentDescription="@string/truth_main"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/imageView1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="0.7"
+                android:text="Щоб подивитися список доступних операцій, натисніть на знак питання в нижньому правому куті екрану"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/truth_main_3"
+                android:contentDescription="@string/truth_main"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

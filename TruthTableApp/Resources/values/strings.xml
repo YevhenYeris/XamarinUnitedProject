@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">UnitedProjectApp</string>
+    <string name="action_info">Про автора</string>
+    <string name="app_help">Посібник користувача</string>
+    <string name="truth_help">Бінарна логіка</string>
+    <string name="truth_main">Головна сторінка</string>
+    <string name="phones_main">Головна сторінка</string>
+    <string name="truth_import">Завантаження формули</string>
+    <string name="truth_export">Збереження формули</string>
+    <string name="truth_table">Таблиці істинності</string>
+    <string name="phones_help">Каталог смартфонів</string>
+    <string name="phones_contacts">Робота з контактами</string>
+    <string name="phones_warehouses">Список складів</string>
+    <string name="exec">Формула виконувана</string>
+    <string name="not_exec">Формула невиконувана</string>
+    <string name="eq">Формула є тотожністю</string>
+    <string name="not_eq">Формула не є тотожністю</string>
+    <string name="import_btn">Імпорт</string>
+    <string name="export_btn">Експорт</string>
+    <string name="nothing_selected">Формулу не обрано</string>
+    <string name="show_table">Показати таблицю істинності</string>
+    <string name="help_text">and - кон\'юнкція\nor - диз\'юнкція\nnot - заперечення\n-> - імплікація\n&lt;-> - еквіваленція\nxor - додавання за модулем два</string>
+    <string name="clear_formulas">Очистити</string>
+    <string name="formulas">formulas</string>
+</resources>

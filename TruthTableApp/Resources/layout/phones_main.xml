@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+       android:id="@id/backHome"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Назад"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_weight="0.7"
+        android:text="Головна сторінка містить кнопки навігації та відображення списку смартфонів, а також відображає середнє значення довжини діагоналі екрану смартфонів із бази даних"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/phones_main_1"
+        android:contentDescription="@string/phones_main"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_weight="0.7"
+        android:text="Список моделей з'явиться, якщо натиснути на кнопку Показати усі моделі"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/phones_main_2"
+        android:contentDescription="@string/phones_main"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_weight="0.7"
+        android:text="Лише моделі виробника Motorola з діагоналлю екрану більше за 5 дюймів будуть відображені, якщо натиснути на кнопку Показати за фільтром"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/phones_main_3"
+        android:contentDescription="@string/phones_main"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+</ScrollView>

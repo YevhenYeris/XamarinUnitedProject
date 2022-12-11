@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    android:padding="15dp">
+
+   <Button
+       android:id="@id/backHome"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Назад"/>
+
+   <Button
+       android:id="@+id/contactsButton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Контакти"
+       android:layout_margin="15dp"/>
+
+   <Button
+       android:id="@+id/filterPhones"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Показати усі моделі"
+       android:layout_margin="15dp"/>
+
+   <Button
+       android:id="@+id/warehousesButton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Показати список складів"
+       android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/averageDiagonalSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_margin="15dp"
+        android:textAlignment="center"/>
+
+   <ListView     
+      android:id="@+id/mobile_list"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:divider="#f00"
+      android:dividerHeight="1dp"
+      android:paddingHorizontal="25dp">
+   </ListView>
+
+</LinearLayout>

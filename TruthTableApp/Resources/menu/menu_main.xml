@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="100"
+        android:title="@string/action_info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/app_help"
+        android:orderInCategory="100"
+        android:title="@string/app_help"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/truth_help"
+                  android:title="@string/truth_help">
+                <menu>
+                    <item android:id="@+id/truth_main"
+                          android:title="@string/truth_main" />
+                    <item android:id="@+id/truth_import"
+                          android:title="@string/truth_import" />
+                    <item android:id="@+id/truth_export"
+                          android:title="@string/truth_export" />
+                    <item android:id="@+id/truth_table"
+                          android:title="@string/truth_table" />
+                </menu>
+            </item>
+            <item android:id="@+id/phones_help"
+                  android:title="@string/phones_help">
+                <menu>
+                    <item android:id="@+id/phones_main"
+                          android:title="@string/phones_main" />
+                    <item android:id="@+id/phones_contacts"
+                          android:title="@string/phones_contacts" />
+                    <item android:id="@+id/phones_warehouses"
+                          android:title="@string/phones_warehouses" />
+                </menu>
+            </item>
+        </menu>
+        
+    </item>
+</menu>
